@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('admin_projet_tutore', "Admin\AdminController@index")->name('index');
