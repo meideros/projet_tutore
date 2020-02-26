@@ -23,4 +23,14 @@ class AdminController extends Controller
     public function ResetPassword(){
         return view("Admin.reset_password");
     }
+
+    public function ListAdmin(){
+        $year = \date("Y");
+        return view("Admin.list_admin", compact("year"));
+    }
+
+    public function OldProject(){
+        $year = \date("Y");
+        return view("Admin.old_project", compact("year"));
+    }
 }

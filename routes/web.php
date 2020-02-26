@@ -22,6 +22,12 @@ Route::get('admin_password_forgotten', "Admin\AdminController@PasswordForgotten"
 
 Route::get('admin_reset_password', "Admin\AdminController@ResetPassword")->name('reset_password');
 
+Route::get('admin_list', "Admin\AdminController@ListAdmin")->name('list');
+
+Route::get('admin_old_project', "Admin\AdminController@OldProject")->name('old_project');
+
+
+
 
 
 

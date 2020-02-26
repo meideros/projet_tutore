@@ -94,7 +94,7 @@
 
                     <!-- Simple link -->
                     <li>
-                        <a href="" class="collapsible-header waves-effect black-text"><i class=" fas fa-list"></i>Ancien Projet Tutoré</a>
+                        <a href="{{route("old_project")}}" class="collapsible-header waves-effect black-text"><i class=" fas fa-list"></i>Ancien Projet Tutoré</a>
                     </li>
 
 
@@ -117,7 +117,7 @@
 
         <!-- Breadcrumb -->
         <div class="breadcrumb-dn mr-auto">
-            <p>Espace Administration</p>
+            <a href="{{route("dashboard")}}" class="white-text"><p>Espace Administration</p></a>
         </div>
 
         <div class="d-flex change-mode">
@@ -131,15 +131,16 @@
                         <span class="d-none d-md-inline-block white-text">Paramètre</span>
                     </a>
                     <div class="dropdown-menu dropdown-dark white-text" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#add_admin">
                             <i class="fas fa-plus mr-2" aria-hidden="true"></i>
                             <span>Nouveau compte Admin</span>
                         </a>
-                        <a class="dropdown-item" href="#">
+
+                        <a class="dropdown-item" href="#" data-toggle="modal" data-target="#mod_data">
                             <i class="fas fa-user mr-2" aria-hidden="true"></i>
                             <span>Données de connexion</span>
                         </a>
-                        <a class="dropdown-item" href="#">
+                        <a class="dropdown-item" href="{{route("list")}}">
                             <i class="fas fa-list mr-2" aria-hidden="true"></i>
                             <span>Liste des Admins</span>
                         </a>
@@ -189,9 +190,149 @@
                         <li>Valider ou faite des remarques sur le thème des étudiants</li>
                         <li>Attribuer leur enfin une note par étudiant de chaque groupe</li>
                     </ul>
-                    <a href="" class="btn indigo darken-4">Démarrer un projet</a>
+                    <button type="button" class="btn indigo" data-toggle="modal" data-target="#start_project">
+                        Démarrer un projet
+                    </button>
+
+                    <!-- Modal: Démarrage de projet -->
+                    <div class="modal fade" id="start_project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog cascading-modal" role="document">
+
+                        <!-- Content -->
+                        <div class="modal-content">
+
+                            <!-- Header -->
+                            <div class="modal-header indigo darken-3 white-text">
+                                <h4 class=""><i class="far fa-clock"></i> Définition du délai d'inscription</h4>
+                                <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <!-- Body -->
+                            <div class="modal-body mb-0">
+                            <form action="">
+                                <div class="md-form">
+                                    <i class="fas fa-calendar-alt indigo-text prefix"></i>
+                                    <input placeholder="Début inscription" type="text" id="date-picker-example" class="form-control datepicker">
+                                </div>
+
+                                <div class="md-form">
+                                    <i class="fas fa-calendar-alt indigo-text prefix"></i>
+                                    <input placeholder="Fin inscription" type="text" id="date-picker-example" class="form-control datepicker">
+                                </div>
+
+                                <div class="text-center mt-1-half">
+                                    <button  type="submit" class="btn btn-indigo mb-1">Valider<i class="fas fa-check ml-1"></i></button>
+                                </div>
+                            </form>
+
+                            </div>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Modal: Subscription -->
                 </div>
-            </div>
+
+                    <!-- Modal: Ajout admin -->
+                    <div class="modal fade" id="add_admin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog cascading-modal" role="document">
+
+                            <!-- Content -->
+                            <div class="modal-content">
+
+                                <!-- Header -->
+                                <div class="modal-header indigo darken-3 white-text">
+                                    <h4 class=""><i class="fas fa-plus"></i> Ajout d'un admin</h4>
+                                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <!-- Body -->
+                                <div class="modal-body mb-0">
+                                    <form action="">
+                                        <div class="md-form">
+                                            <i class="fas fa-envelope prefix indigo-text"></i>
+                                            <input type="text" id="orangeForm-name" class="form-control" placeholder="Email">
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fas fa-lock prefix indigo-text"></i>
+                                            <input type="password" id="orangeForm-name" class="form-control" placeholder="Mot de passe">
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fas fa-lock prefix indigo-text"></i>
+                                            <input type="password" id="orangeForm-name" class="form-control" placeholder="Confirmation">
+                                        </div>
+
+                                        <div class="text-center mt-1-half">
+                                            <button  type="submit" class="btn btn-indigo mb-1">Valider<i class="fas fa-check ml-1"></i></button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Modal: Subscription -->
+                    </div>
+
+                    <!-- Modal: Modifier donné de connexion -->
+                    <div class="modal fade" id="mod_data" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                         aria-hidden="true" data-backdrop="false">
+                        <div class="modal-dialog cascading-modal" role="document">
+
+                            <!-- Content -->
+                            <div class="modal-content">
+
+                                <!-- Header -->
+                                <div class="modal-header indigo darken-3 white-text">
+                                    <h4 class=""><i class="fas fa-edit"></i> Modification des données de connexion</h4>
+                                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <!-- Body -->
+                                <div class="modal-body mb-0">
+                                    <form action="">
+                                        <div class="md-form">
+                                            <i class="fas fa-envelope prefix indigo-text"></i>
+                                            <input value="admin@gmail.com" type="text" id="orangeForm-name" class="form-control" placeholder="Email">
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fas fa-lock prefix indigo-text"></i>
+                                            <input type="password" id="orangeForm-name" class="form-control" placeholder="Nouveau mot de passe">
+                                        </div>
+
+                                        <div class="md-form">
+                                            <i class="fas fa-lock prefix indigo-text"></i>
+                                            <input type="password" id="orangeForm-name" class="form-control" placeholder="Confirmation">
+                                        </div>
+
+                                        <div class="text-center mt-1-half">
+                                            <button  type="submit" class="btn btn-indigo mb-1">Valider<i class="fas fa-check ml-1"></i></button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                            <!-- Content -->
+
+                        </div>
+                        <!-- Modal: Subscription -->
+                    </div>
+
+
+                </div>
+
+
+
+
             <!--/.First row-->
 
             <hr class="extra-margins">
@@ -206,14 +347,12 @@
 
 <!-- Footer -->
 <footer class="page-footer pt-0 mt-5 rgba-stylish-light grey darken-3">
-
     <!-- Copyright -->
     <div class="footer-copyright py-3 text-center">
         <div class="container-fluid">
             © {{$year}} Copyright: Tout droit réservé </a>
         </div>
     </div>
-
 </footer>
 <!-- Footer -->
 
@@ -257,7 +396,9 @@
 
 <!-- Charts -->
 <script>
+    $(document).ready(function () {
 
+    });
     // Small chart
     $(function () {
         $('.min-chart#chart-sales').easyPieChart({
