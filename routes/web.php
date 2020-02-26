@@ -11,6 +11,9 @@
 |
 */
 // Admin route
+Route::get('/', function () {
+    return redirect(route("log_in"));
+});
 Route::get('admin_log_in', "Admin\AdminController@LogIn")->name('log_in');
 
 Route::get('admin_dashboard', "Admin\AdminController@Dashboard")->name('dashboard');
