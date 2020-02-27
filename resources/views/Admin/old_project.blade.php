@@ -165,8 +165,758 @@
 <main>
 
     <div class="container-fluid">
+        <section>
+             <h4 class="text-center pb-2"><strong>Année Académique : 2019-2020</strong></h4>
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-6">
 
+                        <!-- Accordion wrapper -->
+                        <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                            <span  class="indigo-text"><strong>Spécialité : SRS</strong></span>
 
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS1"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                             Groupe #1 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="SRS1" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                            <ul class="list-group z-depth-1">
+                                                <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                    <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                    <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                                </li>
+
+                                                <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                    <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                </li>
+
+                                                <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                    <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                </li>
+
+                                                <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                    <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                </li>
+
+                                            </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS2"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                            Groupe #2 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="SRS2" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                        <ul class="list-group z-depth-1">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                        </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS3"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                            Groupe #3 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="SRS3" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                        <ul class="list-group z-depth-1">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                        </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                        </div>
+                        <!-- Accordion wrapper -->
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <!-- Accordion wrapper -->
+                        <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                            <span  class="indigo-text"><strong>Spécialité : AL</strong></span>
+
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL1"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                            Groupe #1 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="AL1" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                        <ul class="list-group z-depth-1">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                        </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL2"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                            Groupe #2 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="AL2" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                        <ul class="list-group z-depth-1">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                        </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                            <!-- Accordion card -->
+                            <div class="card">
+
+                                <!-- Card header -->
+                                <div class="card-header white " role="tab" id="headingTwo1">
+                                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL3"
+                                       aria-expanded="false" aria-controls="collapseTwo1">
+                                        <h6 class="mb-0 black-text">
+                                            Groupe #3 <i class="fas fa-angle-down rotate-icon"></i>
+                                        </h6>
+                                    </a>
+                                </div>
+
+                                <!-- Card body -->
+                                <div id="AL3" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                     data-parent="#accordionEx1">
+                                    <div class="card-body text-white">
+                                        <ul class="list-group z-depth-1">
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                                <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                            <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                                <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            </li>
+
+                                        </ul>
+                                        <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                        </p>
+                                        <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                        </p>
+                                        <!-- Grid column -->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- Accordion card -->
+
+                        </div>
+                        <!-- Accordion wrapper -->
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            </section>
+        <hr>
+        <section>
+            <h4 class="text-center pb-2"><strong>Année Académique : 2019-2020</strong></h4>
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6">
+
+                    <!-- Accordion wrapper -->
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                        <span  class="indigo-text"><strong>Spécialité : SRS</strong></span>
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS1"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #1 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="SRS1" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS2"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #2 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="SRS2" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#SRS3"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #3 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="SRS3" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                    </div>
+                    <!-- Accordion wrapper -->
+
+                </div>
+                <div class="col-md-6">
+
+                    <!-- Accordion wrapper -->
+                    <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+                        <span  class="indigo-text"><strong>Spécialité : AL</strong></span>
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL1"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #1 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="AL1" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL2"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #2 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="AL2" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                        <!-- Accordion card -->
+                        <div class="card">
+
+                            <!-- Card header -->
+                            <div class="card-header white " role="tab" id="headingTwo1">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#AL3"
+                                   aria-expanded="false" aria-controls="collapseTwo1">
+                                    <h6 class="mb-0 black-text">
+                                        Groupe #3 <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h6>
+                                </a>
+                            </div>
+
+                            <!-- Card body -->
+                            <div id="AL3" class="collapse white " role="tabpanel" aria-labelledby="headingTwo1"
+                                 data-parent="#accordionEx1">
+                                <div class="card-body text-white">
+                                    <ul class="list-group z-depth-1">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                            <span class="badge badge-dark darken-4 badge-pill">Chef de groupe</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                        <li class="list-group-item d-flex justify-content-between align-items-center indigo-text font-weight-bold">
+                                            <span class="text-uppercase font-weight-bold" style="padding-left: 10%">GNACADJA Lucas</span>
+                                        </li>
+
+                                    </ul>
+                                    <p class="black-text mt-2" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                            Thème : "Le thème du groupe 1"
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le cachier des charges </a>
+                                             </span>
+                                    </p>
+                                    <p class="black-text mt-1" style="margin-left: 14%">
+                                            <span style="font-size: 15px;">
+                                                Voir <a href="" class="indigo-text darken-4"> le document final </a>
+                                             </span>
+                                    </p>
+                                    <!-- Grid column -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Accordion card -->
+
+                    </div>
+                    <!-- Accordion wrapper -->
+
+                </div>
+                <!-- Grid column -->
+            </div>
+        </section>
+        <!-- Section: Close by default -->
     </div>
 
 
@@ -174,7 +924,7 @@
 <!-- Main layout -->
 
 <!-- Footer -->
-<footer class="page-footer pt-0 mt-5 rgba-stylish-light grey darken-3 fixed-bottom">
+<footer class="page-footer pt-0 mt-5 rgba-stylish-light grey darken-3">
 
     <!-- Copyright -->
     <div class="footer-copyright py-3 text-center">
